@@ -31,3 +31,12 @@ variable "db_name" {
 
 
 
+variable "sqs_queue_url" {
+  description = "URL of the SQS queue for thumbnail completion messages"
+  type        = string
+}
+
+variable "sqs_queue_arn" {
+  description = "ARN of the SQS queue for thumbnail completion messages"
+  type        = string
+}
